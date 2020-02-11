@@ -2,11 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import moment from 'moment'
 
+
+
 Vue.config.productionTip = false
 
 Vue.filter('formatDate', function(value) {
     if (!value) return ''
-    return moment(value.toString()).format('MM/DD/YYYY hh:mm')
+    return moment(value.toString()).fromNow();
 })
 
 new Vue({

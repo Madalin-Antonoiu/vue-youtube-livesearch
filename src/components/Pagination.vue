@@ -32,4 +32,15 @@ export default {
 .page-link {
   box-shadow: none !important;
 }
+li {
+  list-style: none;
+  display:inline-block;
+  margin-right:10px;
+  
+}
+ul {
+ max-width:120px;
+ margin:0 auto;
+  padding:8px 0px;
+}
 </style>
